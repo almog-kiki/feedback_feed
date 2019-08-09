@@ -1,0 +1,27 @@
+{
+  "name": "Feedback-feed",
+  "version": "0.0.10",
+  "description": "",
+  "main": "server.js",
+  "license": "",
+  "scripts": {
+    "start": "nodemon start.js"
+  },
+  "author": "almog",
+  "dependencies": {
+    "dateformat": "^3.0.3",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "gravatar": "^1.8.0",
+    "http-server": "^0.11.1",
+    "mongoose": "^5.6.8"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/register": "^7.0.0",
+    "concurrently": "^4.1.0",
+    "nodemon": "^1.18.6"
+  }
+}

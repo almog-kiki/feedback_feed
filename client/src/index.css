@@ -1,0 +1,62 @@
+
+@import url("https://fonts.googleapis.com/css?family=Lato");
+html,
+body,
+#root,
+.App {
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  background: #3f3f3f;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+.form{
+  width:300px;
+  margin: 3em 0;
+}
+.star{
+  margin: 0 5px;
+}
+.post{
+  width:800px;
+  margin: 2em ;
+}
+.post-container{
+  height: 450px;
+  overflow-y: auto;
+}
+.disabled-event{
+  pointer-events: none;
+}
+.gravatar{
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+
+.filter-input{
+  width:300px !important;
+}
+.last-seen{
+  font-size: 16px;
+}
+.modal-content{
+  width: 120% !important;
+}

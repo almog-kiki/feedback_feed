@@ -1,0 +1,54 @@
+{
+  "name": "@feed/feedback-feed",
+  "version": "1.0.0",
+  "description": "feedback feed with react node and mongoDB",
+  "author": "Almog Kal",
+  "private": true,
+  "repository": {
+    "type": "git"
+  },
+  "proxy": "http://localhost:8081",
+  "dependencies": {
+    "babel-plugin-styled-components": "^1.10.0",
+    "bootstrap": "^4.2.1",
+    "classnames": "^2.2.6",
+    "core-js": "^2.6.1",
+    "mobx": "^5.13.0",
+    "mobx-react": "^6.1.1",
+    "node-sass": "^4.10.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-app-polyfill": "^0.1.3",
+    "react-app-rewire-mobx": "^1.0.9",
+    "react-app-rewired": "^2.0.2",
+    "react-loadable": "^5.5.0",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1",
+    "reactstrap": "^8.0.1"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.11.0",
+    "customize-cra": "^0.2.9",
+    "react-scripts": "3.0.1"
+  },
+  "scripts": {
+    "start": "set PORT=3001 && react-app-rewired start",
+    "build": "react-app-rewired build",
+    "eject": "react-app-rewired eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app",
+    "parserOptions": {
+      "ecmaFeatures": {
+        "legacyDecorators": true
+      }
+    }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 9",
+    "not op_mini all"
+  ]
+}
