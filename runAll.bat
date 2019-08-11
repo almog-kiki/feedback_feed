@@ -1,7 +1,7 @@
 
+REM  run server and client
 cd %~dp0
-
-cd client\
-npm start
+start runServer.bat
+start runClient.bat
 
 PAUSE
