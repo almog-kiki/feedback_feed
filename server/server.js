@@ -10,7 +10,7 @@ const user = require('./routes/user.route');
 
 
 const mongodbUrl = process.env.MONGODB_URL + process.env.MONGODB_NAME
-const mongoDB = mongodbUrl || 'mongodb://127.0.0.1/cdi_test';
+const mongoDB = mongodbUrl || 'mongodb://127.0.0.1/DB_NAME';
 mongoose.connect(mongoDB, { useNewUrlParser: true , useCreateIndex: true,useFindAndModify: false});
 let db = mongoose.connection;
 //Bind connection to error event (to get notification of connection errors)
